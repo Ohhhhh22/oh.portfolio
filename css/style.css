@@ -1,0 +1,512 @@
+@charset "utf-8";
+
+ul { list-style: none;}
+a { text-decoration: none;
+    color: #020202;
+    font-weight: bold;
+    font-size: 27px; 
+}
+a:hover{color: #ffffff;
+text-shadow: none;}
+li{list-style: none;}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #eeff7e;
+    z-index: 100;
+    height: 100px;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-family: 'Ramche';
+}
+header nav ul li {
+    margin:  0 50px;
+    margin-top: 55px;
+}
+header nav ul li:hover{
+    background-color: rgb(86, 255, 97);
+}
+
+.score{
+  margin: 0 30px;
+  margin-top: 33px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgb(28, 28, 28);
+  color: rgb(255, 255, 255);
+}
+.world{
+  margin: 0 30px;
+  margin-top: 33px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgb(28, 28, 28);
+  color: rgb(255, 255, 255);
+}
+.time{
+  margin: 0 32px;
+  margin-top: 33px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgb(28, 28, 28);
+  color: rgb(255, 255, 255);
+}
+.coin{
+  margin: 0 4px;
+  margin-top: 29px;
+  margin-right: 530px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
+}
+.coin img{
+  width: 27px;
+  margin-left: 29px;
+  margin-right: 21px;
+  margin-bottom: -6px;
+}
+
+/* ------------- 메인 3D 텍스트 -------------*/
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: #59C4B4;
+}
+
+.container {
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  position:absolute;
+  width: 800px;
+  height: 250px;
+}
+
+h2 {
+  width: 100%;
+  color: #fff;
+  font-size: 135px;
+  transform: rotate(10deg) skew(-10deg);
+  -webkit-transform: rotate(10deg) skew(-10deg);
+  -moz-transform: rotate(10deg) skew(-10deg);
+  -o-transform: rotate(10deg) skew(-10deg);
+  -ms-transform: rotate(10deg) skew(-10deg);
+  text-shadow: 1px 1px 0 #51B3A3, 
+    2px 2px 0 #51B3A3, 
+    3px 4px 0 #51B3A3, 
+    4px 5px 0 #51B3A3,
+    5px 7px 0 #51B3A3,
+    6px 8px 0 #51B3A3,
+    7px 10px 0 #51B3A3,
+    8px 11px 0 #51B3A3,
+    9px 13px 0 #51B3A3,
+    10px 14px 0 #51B3A3,
+    11px 16px 0 #51B3A3,
+    12px 17px 0 #51B3A3,
+    13px 19px 0 #51B3A3,
+    14px 20px 0 #51B3A3,
+    15px 22px 0 #51B3A3,
+    16px 23px 0 #51B3A3,
+    17px 25px 0 #51B3A3,
+    18px 26px 0 #51B3A3,
+    19px 28px 0 #51B3A3,
+    20px 29px 0 #51B3A3,
+    21px 30px 0 #389788,
+    23px 31px 0 #389788,
+    24px 32px 0 #389788,
+    26px 33px 0 #389788,
+    27px 34px 0 #389788,
+    29px 35px 0 #389788,
+    30px 36px 0 #389788,
+    32px 37px 0 #389788,
+    33px 38px 0 #389788,
+    35px 39px 0 #389788,
+    36px 40px 0 #389788,
+    38px 41px 0 #389788,
+    39px 42px 0 #389788,
+    41px 43px 0 #389788,
+    42px 44px 0 #389788,
+    44px 45px 0 #389788,
+    45px 46px 0 #389788,
+    47px 47px 0 #389788,
+    48px 49px 0 #7ee5d6,
+    49px 51px 0 #7ee5d6,
+    50px 53px 0 #7ee5d6,
+    51px 55px 0 #7ee5d6,
+    52px 57px 0 #7ee5d6,
+    53px 59px 0 #7ee5d6,
+    54px 61px 0 #7ee5d6,
+    55px 63px 0 #7ee5d6,
+    56px 65px 0 #7ee5d6,
+    57px 67px 0 #7ee5d6,
+    58px 69px 0 #7ee5d6,
+    59px 71px 0 #7ee5d6,
+    60px 73px 0 #7ee5d6,
+    61px 75px 0 #7ee5d6,
+    62px 77px 0 #7ee5d6,
+    63px 79px 0 #7ee5d6,
+    65px 80px 0 #51B3A3,
+    68px 81px 0 #51B3A3,
+    70px 82px 0 #51B3A3,
+    72px 83px 0 #51B3A3,
+    74px 84px 0 #51B3A3,
+    76px 85px 0 #51B3A3,
+    78px 86px 0 #51B3A3,
+    80px 87px 0 #51B3A3,
+    82px 88px 0 #51B3A3,
+    84px 89px 0 #51B3A3,
+    86px 90px 0 #51B3A3,
+    88px 91px 0 #51B3A3,
+    90px 92px 0 #51B3A3;
+}
+
+@font-face {
+    font-family: 'Ramche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Ramche.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Ramche';
+}
+
+/* --------- 어바웃 ---------- */
+.section .about h1{
+  margin: -120px 0px 50px -170px;
+  font-size: 40px;
+  color: rgb(77, 183, 167);
+}
+.section .about{
+  padding: 0px 0 0 100px;
+  margin: 150px 280px 0 ;
+  border: 4px dashed rgb(0, 148, 154);
+  border-radius: 40px;
+  width: 75%;
+  height: 60%;
+}
+.section .about P{
+  font-size: 25px;
+  /* padding-bottom: 80px; */
+  padding: 80px 0 20px 0;
+  font-weight: bold;
+}
+.section .about P strong{
+  color: #001d92;
+  /* text-shadow: 2px 3px 3px rgb(255, 200, 0); */
+}
+.section .about img{
+  width: 40%;
+  height: 80%;
+  margin: -500px 0 0 730px;
+  border-radius: 100px;
+}
+
+/* -----------포폴 배너----------- */
+.gallery{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #eeff7e;
+}
+section.gallery .gallery-header{
+  width: 16vw;
+  height: 100%;
+  padding: 18vh 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+section.gallery .gallery-header h1{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 3px 4px 4px rgb(28, 28, 28);
+}
+section.gallery .gallery-header h1 i{
+  font-style: 50px;
+  margin-bottom: 15px;
+}
+section.gallery .gallery-header p{
+  color: #ff9735;
+}
+section.gallery .gallery-collection{
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  padding-top: 15vh;
+}
+section.gallery .gallery-collection li{
+  display: flex;
+  justify-self: center;
+  align-content: space-between;
+  flex: 1;
+  padding: 50px 40px 110px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all .5s;
+  position: relative;
+}
+section.gallery .gallery-collection li:hover{
+  opacity: 1;
+  flex: 1.5 1;
+}
+section.gallery .gallery-collection li::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  width: 80%;
+  height: 95%;
+  background-color: hsl(245, 54%, 22%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .6s;
+}
+section.gallery .gallery-collection li:hover::before{
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+section.gallery .gallery-collection li .inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  position: relative;
+}
+section.gallery .gallery-collection li .inner .txt{
+  width: 100%;
+}
+section.gallery .gallery-collection li:hover .inner .txt{
+  width: 75%;
+  font-size: 24px;
+}
+section.gallery .gallery-collection li .inner .txt h3{
+  font-size: 2.8rem;
+  color: #ffffff;
+  padding-top: 70px;
+  margin-bottom: 40px;
+  transition: all .4s;
+  text-shadow: 2px 4px 0.3rem rgb(0, 0, 0);
+}
+section.gallery .gallery-collection li:hover .inner .txt h3{
+  font-size: 4vw;
+  padding-top: 0;
+  text-shadow: none;
+}
+/* 숫자 밑 줄 */
+section.gallery .gallery-collection li .inner .txt h3::after{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #404040;
+  margin-top: 20px;
+}
+section.gallery .gallery-collection li:hover .inner .txt h3::after{
+  width: 90px;
+  background-color: rgb(255, 245, 59);
+}
+section.gallery .gallery-collection li .inner .txt p{
+  color: #999;
+}
+section.gallery .gallery-collection li .inner figure{
+  width: 100%;
+  height: 40%;
+}
+section.gallery .gallery-collection li .inner figure video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.pop-up{
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  /* left: 0; */
+  width: 100vw;
+  height: 100vh;
+  padding: 20vh 7vw 14vh 20vw;
+  display: flex;
+  background-color: #222;
+  justify-content: space-between;
+}
+.pop-up.active{
+  left: 0;
+}
+.pop-up .txt{
+  flex: 0 1 25%;
+  height: 100%;
+}
+.pop-up .txt h1{
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.pop-up .txt p{
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  color: #d8d8d8;
+}
+.pop-up .txt button{
+  color: yellow;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-style: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: -0.7px;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 410px 0px 0px 220px ;
+  font-family: 'Ramche';
+  text-shadow: 0 0 0.3rem rgb(255, 255, 255);
+}
+.pop-up .txt button:hover{
+  color: rgb(100, 255, 203);
+  text-shadow: 0 0 1rem rgb(255, 255, 255);
+}
+.pop-up figure{
+  float: 0 1 70%;
+  height: 100%;
+}
+.pop-up figure video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+ /* ---------- CONTACT ----------- */
+ .contact{
+  width: 60%;
+  margin: 220px auto 0;
+  margin-left: 650px;
+}
+.contact h1{
+  margin-left: 280px;
+  font-size: 30px;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 20px 10px;
+  margin: 50px 0;
+  font-family: 'Ramche';
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5%;
+}
+textarea{
+  width: 100%;
+  padding: 20px 0 0 10px;
+  font-family: 'Ramche';
+  border-radius: 5%;
+}
+.section .contact input{
+  padding: 1rem;
+  width: 60%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+} 
+.section .contact input:focus{
+  border: 1px solid #ffc801;
+  box-shadow: 0 0 8px #ff933a;
+}
+.section .contact textarea{
+  height: 150px;
+  width: 60%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 0.9rem;
+}
+.section .contact textarea:focus{
+  outline: none;
+  border: 1px solid #ffc801;
+  box-shadow: 0 0  8px #ff933a;
+}
+/* contact글자 애니메이션 */
+.contact h1{
+  font-weight: bold;
+  position: relative;
+}
+.contact h1::after{
+  content: 'CONTACT';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  transition: all 4s;
+  color: #51c2f3;
+  overflow: hidden;
+}
+.contact h1:hover::after{
+  width: 100%;
+}
+
+/*--------- button--------- */
+.clear {
+  clear: both;
+}
+.btnn {
+  padding-top: 2.3em;
+  margin-top: 2em;
+  margin-left: 18em;
+}
+a.button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 140px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #FFF;
+  border-radius: 10px;
+  transition: all 0.2s ;
+}
+.btnOrange {
+  background: #FFAA40;
+}
+.btnOrange.btnPush {
+  box-shadow: 0px 8px 0px 0px #A66615;
+}
+.btnOrange.btnBorder {
+  box-shadow: 0px 0px 0px 0px #A66615;
+}
+.btnOrange.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #A66615;
+}
+.btnPush:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+/* over */
+.over {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 30px 280px auto;
+}
+.over img{
+  width: 80%;
+  display: block;
+}
